@@ -1,0 +1,91 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Fondo de color gris claro */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para el título */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff5733; /* Texto color naranja */
+}
+
+/* Estilos para los enlaces de navegación en dispositivos móviles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff5733; /* Texto color naranja */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilos para las secciones de contenido */
+section {
+    padding: 20px;
+    background-color: #f5f5f5; /* Fondo de color gris claro */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+    font-size: 28px;
+    margin-top: 0;
+    color: #ff5733; /* Texto color naranja */
+}
+
+/* Estilos para los párrafos de contenido */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #444; /* Texto gris oscuro */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Media Query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    /* Reducir el tamaño de la fuente para mejorar la legibilidad en pantallas pequeñas */
+    h1 {
+        font-size: 24px;
+    }
+    
+    nav a {
+        font-size: 16px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}
